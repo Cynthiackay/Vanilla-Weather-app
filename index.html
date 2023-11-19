@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Weather App</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap"
+			rel="stylesheet"
+		/>
+    <link rel="stylesheet" href="styles.css"/>
+
+
+		<script src="https://unpkg.com/axios@1.6.2/dist/axios.min.js"></script>
+
+
+    
+	</head>
+	<body>
+		<div class="weather-app">
+			<header>
+				<form class="search-form" id="search-form">
+					<input
+						type="search"
+						placeholder="Enter a city..."
+						required
+						class="search-input"
+						id="search-form-input"
+					/>
+					<input type="submit" value="Search" class="search-button" />
+				</form>
+			</header>
+
+			<main class="weather-data">
+				<div>
+					<h1 id="city-header"></h1>
+					<p id="time"></p>
+					<span>Humidity: <strong id="humidity"></strong></span>
+					<span>Wind: <strong id="wind"></strong></span>
+					<p id="weather-description"></p>
+				</div>
+				<div class="temperature-container">
+					<div id="weather-icon"></div>
+					<div id="temperature"></div>
+					<div class="unit">°C</div>
+				</div>
+			</main>
+	  <footer>
+        Coded by <a href="https://github.com/Cynthiackay">Cynthia Kamau</a> and is
+        hosted on
+        <a href=>Github</a> and
+        <a href=></a>
+      </footer>
+    </div>
+    <script src="index.js"></script>
+    
+  </body>
+</html>
