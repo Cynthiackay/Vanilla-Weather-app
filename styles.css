@@ -5,14 +5,14 @@ body {
 }
 
 a {
-  color: #92663f;
+  color: #32d8fc;
 }
 .weather-app {
   background: #ffffff;
   max-width: 600px;
   margin: 45px auto;
   padding: 30px;
-  box-shadow: 0 20px 30px rgba(146, 102, 63, 0.3);
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 16px;
 }
 
@@ -25,14 +25,14 @@ h1 {
 }
 p,
 span {
-  color: gray;
+  color: rgb(13, 13, 14);
   margin: 5px 0;
   font-size: 18px;
 }
 
 strong {
   font-weight: bold;
-  color: #ae6300;
+  color: #8c9ff5;
 }
 .search-input {
   background: #f5f5f5;
@@ -45,7 +45,7 @@ strong {
 }
 
 .search-button {
-  background-color: #92663f;
+  background-color: #3f7f92;
   border: none;
   border-radius: 6px;
   color: #ffffff;
